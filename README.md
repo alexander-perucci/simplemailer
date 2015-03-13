@@ -64,4 +64,4 @@ You can also support this project by donating on Gratipay [here](https://www.gra
 ## License
 Licensed under the MPL version 2.0 license.
 
-Copyright (c) 2014 Alexander Perucci.
+Copyright (c) 2015 Alexander Perucci.
