@@ -24,6 +24,7 @@ Simplemailer needs the following dependencies:
 
 ## Step to use simplemailer
 In order to send an email to a list of emails you have to perform this simple steps:
+
 ### First steps
  1. Download simplemailer [here](https://github.com/prednaxela/simplemailer/archive/master.zip)
  2. Create a file with the contents of the email
@@ -32,35 +33,25 @@ In order to send an email to a list of emails you have to perform this simple st
 ### Configure config.properties file
  1. Locate the properties file in simplemailer/src/main/resources
  2. Set the following property:
- 	a. mail.from
- 	b. mail.message.subject
- 	c. mail.to.file
- 	d. mail.message.content.file
- 	e. mail.report.file
-1. Item 1
-  1. A corollary to the above item.
-  2. Yet another point to consider.
-2. Item 2
-  * A corollary that does not need to be ordered.
-    * This is indented four spaces, because it's two spaces further than the item above.
-    * You might want to consider making a new list.
-3. Item 3
+ 	* mail.from
+ 	* mail.message.subject
+ 	* mail.to.file
+ 	* mail.message.content.file
+ 	* mail.report.file
+
 ### Configure protocol.smtp.properties file
  1. Locate the properties file in simplemailer/src/main/resources
  2. Set the following property:
- 	a. mail.smtp.host
- 	b. mail.smtp.user
- 	c. mail.smtp.password
- 	d. mail.smtp.port
- 	e. mail.smtp.auth
-
-
+ 	* mail.smtp.host
+ 	* mail.smtp.user
+ 	* mail.smtp.password
+ 	* mail.smtp.port
+ 	* mail.smtp.auth
 
 ### Send the contents of the email to your list
  1. Locate the folder /simplemailer
  2. Execute the maven command: <pre>mvn clean compile install</pre>
  3. Execute the maven command: <pre>mvn exec:java</pre>
-
 
 ## Reporting an Issue
 
@@ -73,4 +64,3 @@ You can also support this project by donating on Gratipay [here](https://www.gra
 Licensed under the MPL version 2.0 license.
 
 Copyright (c) 2014 Alexander Perucci.
-=======
