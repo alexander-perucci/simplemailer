@@ -1,10 +1,11 @@
 Simplemailer
 ==================
 
-Simplemailer is a maven Java Application to send an email to a single user or to a list of users.
+Simplemailer is a maven Java Application to send an email to a single user or to a list of users and reports you the list of email that have received or not your message.
 Simplemailer is simple to use, you only have to configure the protocol and other properties to setup the application. 
 In order to configure properly the application you have to set the value of the property in the files: config.properties and protocol.smtp.properties
-Simplemailer sends the email using the SMTP protocol, but can be easly extended to use other protocol, to do this can you seen the SMTPSender.java class. 
+Simplemailer sends the email using the SMTP protocol, but can be easly extended to use other protocol, to do this can you seen the SMTPSender.java class.
+
 
 ## Getting Started
 
