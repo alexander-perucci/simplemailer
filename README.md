@@ -23,7 +23,7 @@ Simplemailer needs the following dependencies:
  5. slf4j-log4j12 [version 1.6.4]
 
 ## Step to use simplemailer
-In order to send a email to a list of emails you have to perform this simple steps:
+In order to send an email to a list of emails you have to perform this simple steps:
 ### First steps
  1. Download simplemailer [here](https://github.com/prednaxela/simplemailer/archive/master.zip)
  2. Create a file with the contents of the email
