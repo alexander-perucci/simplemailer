@@ -15,10 +15,8 @@ Simplemailer can be downloaded [here](https://github.com/prednaxela/simplemailer
 
 ### Dependencies
 
-## Requirement
 Simplemailer is a Maven application. Can you ownload maven [here](http://maven.apache.org/download.cgi)
-
-Simplemailer needs the following dependencies that you found in the `POM` file:
+Simplemailer needs the following dependencies that you found in the `POM` file located in `simplemailer/pom.xml`:
  1. Java [version 1.7]
  2. javax.mail [version 1.5.2]
  3. Commons-io [version 2.4]
@@ -34,7 +32,7 @@ In order to send an email to a list of emails you have to perform this simple st
  3. Create a file that contains a list of emails to send your message. Please take care to put the emails one per line
 
 ### Configure `config.properties` file
- 1. Locate the properties file in simplemailer/src/main/resources
+ 1. Locate the properties file in `simplemailer/src/main/resources`
  2. Set the following property:
  	* mail.from
  	* mail.message.subject
@@ -43,7 +41,7 @@ In order to send an email to a list of emails you have to perform this simple st
  	* mail.report.file
 
 ### Configure `protocol.smtp.properties` file
- 1. Locate the properties file in simplemailer/src/main/resources
+ 1. Locate the properties file in `simplemailer/src/main/resources`
  2. Set the following property:
  	* mail.smtp.host
  	* mail.smtp.user
@@ -52,7 +50,7 @@ In order to send an email to a list of emails you have to perform this simple st
  	* mail.smtp.auth
 
 ### Send the contents of the email to your list
- 1. Locate the folder /simplemailer
+ 1. Locate the `simplemailer` folder
  2. Execute the maven command: <pre>mvn clean compile install</pre>
  3. Execute the maven command: <pre>mvn exec:java</pre>
 
