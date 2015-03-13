@@ -1,1 +1,1 @@
-# simplemailer
+# Simplemailer
