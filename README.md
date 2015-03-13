@@ -14,7 +14,7 @@ Simplemailer can be downloaded [here](https://github.com/prednaxela/simplemailer
 
 ### Dependencies
 
-Simplemailer uneeds the following dependencies:
+Simplemailer needs the following dependencies:
 
  1. Java [version 1.7]
  2. javax.mail [version 1.5.2]
