@@ -15,7 +15,7 @@ Simplemailer can be downloaded [here](https://github.com/prednaxela/simplemailer
 
 ### Dependencies
 
-Simplemailer is a Maven application. Can you ownload maven [here](http://maven.apache.org/download.cgi)
+Simplemailer is a Maven application. Can you download maven [here](http://maven.apache.org/download.cgi)
 and needs the following dependencies that you found in the `POM` file located in `simplemailer/pom.xml`:
  1. Java [version 1.7]
  2. javax.mail [version 1.5.2]
