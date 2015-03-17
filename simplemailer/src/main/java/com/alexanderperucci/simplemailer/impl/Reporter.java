@@ -62,7 +62,7 @@ public class Reporter implements TransportListener {
         StringBuilder addresses = new StringBuilder();
         try {
             for (Address address : Arrays.asList(transportEvent.getMessage().getRecipients(Message.RecipientType.TO))){
-                addresses.append(address.toString()+", ");
+                addresses.append(address.toString()+" -- "+messageStatus.toString()+", ");
             }
             addresses.replace(addresses.indexOf(", "), addresses.length(), "") ;
             addresses.append(System.getProperty("line.separator"));

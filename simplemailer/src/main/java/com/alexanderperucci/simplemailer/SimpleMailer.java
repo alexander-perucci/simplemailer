@@ -47,7 +47,7 @@ public class SimpleMailer {
             }
         }
 
-        if (mailConfig.get("mail.reporter.file") != null || !mailConfig.get("mail.reporter.file").isEmpty()) {
+        if (mailConfig.get("mail.report.file") != null || !mailConfig.get("mail.report.file").isEmpty()) {
             File reportFile = new File(mailConfig.get("mail.report.file"));
             FileUtils.writeStringToFile(reportFile, reporter.getReport());
         }
