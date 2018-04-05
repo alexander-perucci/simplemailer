@@ -58,9 +58,6 @@ In order to send an email to a list of emails you have to perform this simple st
 
 1. Make sure the problem you're addressing is reproducible.
 
-## Contribute
-You can also support this project by donating on Gratipay [here](https://www.gratipay.com/alexander_perucci/)
-
 ## License
 Licensed under the MPL version 2.0 license.
 
